@@ -1,0 +1,11 @@
+
+
+.Outers{
+    padding: 2px 10px 6px;
+    border: 2px solid blue;
+    margin-bottom: 4px;
+}
+.Inners{
+ border: 2px solid rgb(76, 76, 247);
+    padding: 4px 10px;   
+}

@@ -51,7 +51,7 @@
                   <p></p>
         </div>
     </div>
-    <div>
+    <div  class="Outers">
         <p>Question from leet code ........</p>
         <div>
             <p>Q--1 Write a function createHelloWorld. It should return a new function that always returns "Hello World".</p>
@@ -60,6 +60,37 @@
         </div>
         <p> Q -- 2 Given an integer n, return a counter function. This counter function initially returns n and then returns 1 more than the previous value every subsequent time it is called (n, n + 1, n + 2, etc).</p>
     </div>
+    <div  class="Outers" >
+        <pre>Q -- 3 Write a function createCounter. It should accept an initial integer init. It should return an object with three functions.
+
+            The three functions are:</pre>
+            <div class="Inners">
+        <p>Counter : <span id="counterText"></span></p>
+        <button onclick=incrementCounter()>++</button> <button onclick=decrementCounter()>--</button> <button onclick=reset()>Reset</button></div>
+        <div  class="Outers" >
+            <pre>Q -- 4 Given an integer array arr and a mapping function fn, return a new array with a transformation applied to each element.
+
+                The returned array should be created such that returnedArray[i] = fn(arr[i], i).
+                
+                Please solve it without the built-in Array.map method.</pre>
+                <div class="Inners"></div>
+           
+    </div>
+    <div  class="Outers" >
+        <pre>Q -- 5 Given an integer array arr and a filtering function fn, return a filtered array filteredArr.
+
+            The fn function takes one or two arguments:
+            
+            @ arr[i] - number from the arr
+            @ i - index of arr[i]
+            filteredArr should only contain the elements from the arr for which the expression fn(arr[i], i) evaluates to a truthy value. 
+            A truthy value is a value where Boolean(value) returns true.
+            
+            Please solve it without the built-in Array.filter method.</pre>
+            <div class="Inners"></div>
+       
+</div>
+
 
     <script src="index.js"></script>
 </body>
